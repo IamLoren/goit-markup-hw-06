@@ -1,1 +1,1 @@
-https://iamloren.github.io/goit-markup-hw-05/
+https://iamloren.github.io/goit-markup-hw-06/
