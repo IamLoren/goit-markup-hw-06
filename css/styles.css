@@ -120,6 +120,7 @@ img {
 
 .nav-logo {
   margin-right: 76px;
+  padding: 25px 0;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -146,6 +147,14 @@ img {
 
 .color-active {
   color: var(--clr-blue-pressed);
+}
+
+.header-burger {
+  display: none;
+}
+
+.mobile-menu-contacts {
+  display: none;
 }
 
 .address-link {
