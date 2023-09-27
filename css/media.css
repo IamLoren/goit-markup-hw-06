@@ -119,7 +119,7 @@
   }
 }
 
-@media screen and (min-width: 428px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .address {
         display: none;
