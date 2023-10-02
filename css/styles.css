@@ -85,6 +85,10 @@ img {
   overflow: hidden;
 }
 
+.no-scroll {
+overflow: hidden;
+}
+
 .section {
   padding: 120px 0 0;
 }
