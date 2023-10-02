@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Homework-6</title>
     <link rel="shortcut icon" href="./images/Web.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +23,9 @@
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/media.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
   </head>
 
   <body>
@@ -46,6 +48,12 @@
               <a class="nav-link link" href="">Contacts</a>
             </li>
           </ul>
+
+          <div class="header-burger menu-toggle js-open-menu" role="navigation" aria-expanded="false" aria-controls="mobile-menu">
+            <div class="header-burger-line firstLine"></div>
+            <div class="header-burger-line secondLine"></div>
+            <div class="header-burger-line thirdLine"></div>
+          </div>
         </nav>
 
         <address class="address">
@@ -368,5 +376,77 @@
         </div>
       </div>
     </footer>
+
+    <div class="menu-container js-menu-container">
+      <ul class="list modal-list">
+        <li class="nav-item">
+          <a
+            class="nav-link current link color-active"
+            href="./index.html"
+            >Studio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="">Contacts</a>
+        </li>
+      </ul>
+
+      <address class="mobile-menu-contacts">
+        <ul class="list address-list">
+          <li class="address-item">
+            <a class="address-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="menu-socials">
+          <li class="footer-icon">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

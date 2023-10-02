@@ -109,26 +109,57 @@
   /* FOOTER */
 
   footer {
-    padding-top: 72px;
+    padding-top: 80px;
   }
 
   .footer .container {
     padding-left: 108px;
     flex-wrap: wrap;
-    row-gap: 62px;
+    row-gap: 72px;
   }
 
   .footer-wrapper {
     margin-right: 24px;
   }
 
-  .footerlogo {
+  .nav-logo.footerlogo {
+    padding: 17px 0;
     margin-bottom: 0;
   }
 
   .subscribe-wrapper {
     align-self: flex-start;
   }
+
+/* PORTFOLIO */
+
+.portfolio {
+  padding: 64px 0 96px;
+}
+
+.portfolio .container {
+  max-width: 768px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.portfolio-buttons {
+  margin-bottom: 61px;
+}
+
+.portfolio-cards {
+  justify-content: flex-start;
+  row-gap: 75px;
+}
+
+.portfolio-card {
+  max-width: 356px;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1158px) and (min-resolution: 192dpi) {
@@ -364,6 +395,27 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  
+/* PORTFOLIO */
+
+.portfolio-buttons {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 16px;
+  margin-bottom: 48px;
+}
+
+.portfolio-cards {
+  justify-content: center;
+  row-gap: 48px;
+}
+
+  .portfolio {
+    padding: 48px 0 48px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero-section {
     background-image: linear-gradient(
@@ -372,6 +424,7 @@
     ),
     url(../images/hero/hero-bg_mob@2x.jpg);
   }
+
 }
 
 @media screen and (max-width: 420px) {
