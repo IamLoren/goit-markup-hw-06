@@ -28,7 +28,7 @@
     const burgerFirstLine = document.querySelector('.firstLine');
     const burgerSecondLine = document.querySelector('.secondLine');
     const burgerthirdLine = document.querySelector('.thirdLine');
-
+    const mainForBlur = document.querySelector('main');
 
 
     headerBurger.addEventListener('click', function () {
@@ -49,6 +49,7 @@
         openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
       openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
       mobileMenu.classList.toggle('is-open');
+      mainForBlur.classList.toggle('blur');
   
       const scrollLockMethod = !isMenuOpen
         ? 'disableBodyScroll'

@@ -89,6 +89,10 @@ img {
 overflow: hidden;
 }
 
+.blur {
+  filter: blur(2px);
+}
+
 .section {
   padding: 120px 0 0;
 }
