@@ -814,6 +814,7 @@ textarea {
   line-height: 1.17; 
   letter-spacing: 0.04em;
   color: var(--clr-customer-icon);
+  text-align: center;
 }
 
 .custom-box {
@@ -825,6 +826,7 @@ textarea {
   fill: transparent; 
   border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px; 
+  margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
